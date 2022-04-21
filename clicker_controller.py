@@ -54,7 +54,7 @@ while is_running:
     clicker.click_cookie()
     if elapsed_time > time_delta:
         start_time = time.time()
-   
+
         print(clicker.get_cookie_count().text)
         unlocked = clicker.get_unlocked_elements()
         if unlocked:
